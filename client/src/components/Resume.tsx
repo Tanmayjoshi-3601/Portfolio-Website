@@ -97,7 +97,7 @@ export default function Resume() {
   const downloadResume = () => {
     // Download the actual resume PDF
     const link = document.createElement('a');
-    link.href = '/attached_assets/Tanmay Joshi.pdf';
+    link.href = '/Tanmay Joshi.pdf';
     link.download = 'Tanmay_Joshi_Resume.pdf';
     link.click();
   };
