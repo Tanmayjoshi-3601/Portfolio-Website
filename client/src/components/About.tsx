@@ -1,4 +1,5 @@
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
+import profileImage from "@assets/Tanmay Profile Picture.jpeg";
 
 export default function About() {
   const { ref, isVisible } = useScrollAnimation();
@@ -28,7 +29,7 @@ export default function About() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="glassmorphism p-8 rounded-2xl hover-tilt">
               <img 
-                src="/attached_assets/Tanmay Profile Picture.jpeg" 
+                src={profileImage} 
                 alt="Tanmay Joshi - Professional headshot" 
                 className="w-full rounded-xl shadow-2xl"
                 loading="lazy"
